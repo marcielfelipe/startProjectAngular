@@ -1,32 +1,44 @@
+import { ProductAlertsComponent } from './molecules/product-alerts/product-alerts.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { TopBarComponent } from './top-bar/top-bar.component';
-import { ProductListComponent } from './product-list/product-list.component';
-import { ProductAlertsComponent } from './product-alerts/product-alerts.component';
-import { ProductDetailsComponent } from './product-details/product-details.component';
-import { CartComponent } from './cart/cart.component';
 import { ReactiveFormsModule } from '@angular/forms';
-import { ShippingComponent } from './shipping/shipping.component';
+import { ButtonComponent } from './atoms/button/button.component';
+import { ButtonIconComponent } from './molecules/button-icon/button-icon.component';
+import { CartItemComponent } from './molecules/cart-item/cart-item.component';
+import { FormCheckoutComponent } from './molecules/form-checkout/form-checkout.component';
+import { ProductComponent } from './molecules/product/product.component';
+import { CartComponent } from './templates/cart/cart.component';
+import { ProductDetailsComponent } from './templates/product-details/product-details.component';
+import { ProductListComponent } from './templates/product-list/product-list.component';
+import { ShippingComponent } from './templates/shipping/shipping.component';
+import { TopBarComponent } from './templates/top-bar/top-bar.component';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TopBarComponent,
-    ProductListComponent,
+    ButtonComponent,
+    ButtonIconComponent,
+    CartItemComponent,
+    FormCheckoutComponent,
+    ProductComponent,
     ProductAlertsComponent,
-    ProductDetailsComponent,
     CartComponent,
-    ShippingComponent
+    ProductDetailsComponent,
+    ProductListComponent,
+    ShippingComponent,
+    TopBarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     ReactiveFormsModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
