@@ -17,7 +17,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     CartItemComponent,
     FormCheckoutComponent,
     ProductComponent,
-    ProductAlertsComponent
+    ProductAlertsComponent,
   ],
   imports: [
     BrowserModule,
@@ -32,7 +32,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     ButtonIconComponent,
     FormCheckoutComponent,
     ProductComponent,
-    ProductAlertsComponent
+    ProductAlertsComponent,
+
   ]
 })
 export class MoleculesModule{}

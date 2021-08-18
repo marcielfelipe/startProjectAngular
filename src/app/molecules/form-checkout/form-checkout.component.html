@@ -1,17 +1,23 @@
 <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit()">
 
   <div>
-    <label for="name">
-      Name
-    </label>
-    <input id="name" type="text" formControlName="name">
+    <app-label for="name"content="Name"></app-label>
+    <app-input
+      id='name'
+      type='text'
+      [valor]='formData.name'
+      (mudouValor)="onChangeName($event)"
+    ></app-input>
   </div>
 
   <div>
-    <label for="address">
-      Address
-    </label>
-    <input id="address" type="text" formControlName="address">
+    <app-label for="address"content="Address"></app-label>
+    <app-input
+      id='address'
+      type='text'
+      [valor]='formData.address'
+      (mudouValor)="onChangeAddress($event)"
+    ></app-input>
   </div>
 
   <app-button
