@@ -18,21 +18,23 @@ import { ShippingComponent } from './templates/shipping/shipping.component';
 import { TopBarComponent } from './templates/top-bar/top-bar.component';
 import { CommonModule } from '@angular/common';
 import { AtomsModule } from './atoms/atoms.module';
+import { MoleculesModule } from './molecules/molecules.module';
+import { TemplatesModule } from './templates/templates.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     // ButtonComponent,
-    ButtonIconComponent,
-    CartItemComponent,
-    FormCheckoutComponent,
-    ProductComponent,
-    ProductAlertsComponent,
-    CartComponent,
-    ProductDetailsComponent,
-    ProductListComponent,
-    ShippingComponent,
-    TopBarComponent
+    // ButtonIconComponent,
+    // CartItemComponent,
+    // FormCheckoutComponent,
+    // ProductComponent,
+    // ProductAlertsComponent,
+    // CartComponent,
+    // ProductDetailsComponent,
+    // ProductListComponent,
+    // ShippingComponent,
+    // TopBarComponent
   ],
   imports: [
     BrowserModule,
@@ -40,7 +42,7 @@ import { AtomsModule } from './atoms/atoms.module';
     HttpClientModule,
     ReactiveFormsModule,
     CommonModule,
-    AtomsModule
+    TemplatesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
