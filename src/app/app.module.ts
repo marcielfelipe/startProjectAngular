@@ -17,11 +17,12 @@ import { ProductListComponent } from './templates/product-list/product-list.comp
 import { ShippingComponent } from './templates/shipping/shipping.component';
 import { TopBarComponent } from './templates/top-bar/top-bar.component';
 import { CommonModule } from '@angular/common';
+import { AtomsModule } from './atoms/atoms.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ButtonComponent,
+    // ButtonComponent,
     ButtonIconComponent,
     CartItemComponent,
     FormCheckoutComponent,
@@ -38,7 +39,8 @@ import { CommonModule } from '@angular/common';
     AppRoutingModule,
     HttpClientModule,
     ReactiveFormsModule,
-    CommonModule
+    CommonModule,
+    AtomsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
