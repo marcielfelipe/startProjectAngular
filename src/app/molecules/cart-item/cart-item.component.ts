@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { CartService } from 'src/app/templates/cart/cart.service';
+import { CartService } from 'src/app/organisms/cart/cart.service';
 
 type ItemProps={
   name: string

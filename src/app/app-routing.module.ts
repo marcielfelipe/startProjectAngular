@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CartComponent } from './templates/cart/cart.component';
-import { ProductDetailsComponent } from './templates/product-details/product-details.component';
-import { ProductListComponent } from './templates/product-list/product-list.component';
-import { ShippingComponent } from './templates/shipping/shipping.component';
+import { CartComponent } from './organisms/cart/cart.component';
+import { ProductDetailsComponent } from './organisms/product-details/product-details.component';
+import { ProductListComponent } from './organisms/product-list/product-list.component';
+import { ShippingComponent } from './organisms/shipping/shipping.component';
 
 const routes: Routes = [
   { path: '', component: ProductListComponent },

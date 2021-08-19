@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder } from '@angular/forms';
-import { CartService } from 'src/app/templates/cart/cart.service';
+import { CartService } from 'src/app/organisms/cart/cart.service';
 
 type FormDataProps={
   name:string
