@@ -4,6 +4,7 @@
   </a>
 </h3>
 
-<p *ngIf="product.description">
-  Description: {{ product.description }}
-</p>
+<app-description
+  *ngIf="product.description"
+  [content]='product.description'>
+</app-description>

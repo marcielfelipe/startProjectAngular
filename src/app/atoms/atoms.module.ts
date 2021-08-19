@@ -5,6 +5,7 @@ import { TitleComponent } from './title/title.component';
 import { LabelComponent } from './label/label.component';
 import { InputComponent } from './input/input.component';
 import { SubTitleComponent } from './sub-title/sub-title.component';
+import { DescriptionComponent } from './description/description.component';
 
 
 
@@ -14,7 +15,8 @@ import { SubTitleComponent } from './sub-title/sub-title.component';
     TitleComponent,
     LabelComponent,
     InputComponent,
-    SubTitleComponent
+    SubTitleComponent,
+    DescriptionComponent
   ],
   imports: [
     CommonModule
@@ -24,7 +26,9 @@ import { SubTitleComponent } from './sub-title/sub-title.component';
     TitleComponent,
     LabelComponent,
     InputComponent,
-    SubTitleComponent
+    SubTitleComponent,
+    DescriptionComponent
+
   ]
 })
 export class AtomsModule { }
