@@ -10,6 +10,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from '../app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ShippingItemComponent } from './shipping-item/shipping-item.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     FormCheckoutComponent,
     ProductComponent,
     ProductAlertsComponent,
+    ShippingItemComponent
   ],
   imports: [
     BrowserModule,
@@ -33,6 +35,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     FormCheckoutComponent,
     ProductComponent,
     ProductAlertsComponent,
+    ShippingItemComponent
 
   ]
 })

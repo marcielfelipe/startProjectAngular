@@ -1,6 +1,4 @@
-<h3>Shipping Prices</h3>
+<app-title content="Shipping Prices"></app-title>
 
-<div class="shipping-item" *ngFor="let shipping of shippingCosts | async">
-  <span>{{ shipping.type }}</span>
-  <span>{{ shipping.price | currency }}</span>
-</div>
+<app-shipping-item [shippingCosts]="shippingCosts"></app-shipping-item>
+
