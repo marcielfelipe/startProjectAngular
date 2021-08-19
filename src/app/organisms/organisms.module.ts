@@ -15,8 +15,8 @@ import { TopBarComponent } from './top-bar/top-bar.component';
     CartComponent,
     ProductDetailsComponent,
     ProductListComponent,
-    ShippingComponent,
-    TopBarComponent
+    TopBarComponent,
+    ShippingComponent
   ],
   imports: [
     CommonModule,
@@ -32,4 +32,4 @@ import { TopBarComponent } from './top-bar/top-bar.component';
     TopBarComponent
   ]
 })
-export class TemplatesModule{}
+export class OrganismsModule{}

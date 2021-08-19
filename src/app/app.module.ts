@@ -6,7 +6,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { TemplatesModule } from './templates/templates.module';
+import { OrganismsModule } from './organisms/organisms.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +18,7 @@ import { TemplatesModule } from './templates/templates.module';
     HttpClientModule,
     ReactiveFormsModule,
     CommonModule,
-    TemplatesModule
+    OrganismsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
