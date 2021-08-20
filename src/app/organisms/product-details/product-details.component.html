@@ -1,8 +1,7 @@
 <div *ngIf="product">
   <app-title [content]='product.name'></app-title>
-  <h4>{{ product.price | currency }}</h4>
-  <p>{{ product.description }}</p>
-
+  <app-price [value]='product.price'></app-price>
+  <app-description [content]='product.description'></app-description>
   <app-button
   (click)="addToCart(product)"
   title='Buy'

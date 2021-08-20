@@ -22,30 +22,6 @@ router-outlet + *  {
   padding: 0 16px;
 }
 
-/* Text */
-
-h1 {
-  font-size: 32px;
-}
 
 
 
-h1, h2 {
-  font-weight: lighter;
-}
-
-p {
-  font-size: 14px;
-}
-
-/* Hyperlink */
-
-a {
-  cursor: pointer;
-  color: #1976d2;
-  text-decoration: none;
-}
-
-a:hover {
-  opacity: 0.8;
-}

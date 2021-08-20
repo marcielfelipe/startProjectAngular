@@ -1,0 +1,16 @@
+h1 {
+  color: white;
+  margin: 0;
+  font-size: 32px;
+  font-weight: lighter;
+}
+
+a {
+  cursor: pointer;
+  color: #1976d2;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+}
